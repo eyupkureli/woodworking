@@ -1,0 +1,21 @@
+$bgColor: #e0e0e0;
+
+.row {
+    display: block;
+    justify-content: space-between;
+}
+
+.block {
+    background-color: $bgColor;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.row.center {
+    align-items: center;
+}
+
+.col {
+    display: block;
+}
